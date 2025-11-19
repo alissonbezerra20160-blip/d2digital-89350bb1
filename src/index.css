@@ -44,6 +44,7 @@ All colors MUST be HSL.
     
     --shadow-glow: 0 0 60px hsl(3 100% 60% / 0.4);
     --shadow-card: 0 8px 32px hsl(297 40% 5% / 0.6);
+    --shadow-orange: 0 0 40px hsl(25 81% 58% / 0.5);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
