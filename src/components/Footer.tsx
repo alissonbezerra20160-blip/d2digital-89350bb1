@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook } from "lucide-react";
+import logo from "@/assets/d2-logo.png";
 
 const Footer = () => {
   return (
@@ -9,10 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold">
-              <span className="bg-gradient-accent bg-clip-text text-transparent">D2</span>
-              <span className="text-foreground">Digital</span>
-            </div>
+            <img src={logo} alt="D2 Digital" className="h-16 w-auto" />
             <p className="text-muted-foreground">
               Transformando marcas através da união perfeita entre dados e design.
             </p>
@@ -57,11 +55,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">contato@d2digital.com.br</span>
+                <span className="text-sm">d2.contactdigital@gmail.com</span>
               </div>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="text-sm">+55 (11) 99999-9999</span>
+                <span className="text-sm">+55 11 99264-8219</span>
               </div>
               <div className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
