@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import logo from "@/assets/d2-logo.png";
 
 const Header = () => {
   return (
@@ -7,10 +8,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="text-2xl font-bold">
-              <span className="bg-gradient-accent bg-clip-text text-transparent">D2</span>
-              <span className="text-foreground">Digital</span>
-            </div>
+            <img src={logo} alt="D2 Digital" className="h-12 w-auto" />
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
