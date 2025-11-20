@@ -67,9 +67,11 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary">
-                  Contratar Agora
-                  <ArrowRight className="w-4 h-4" />
+                <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary" asChild>
+                  <a href="https://wa.me/5511992648219" target="_blank" rel="noopener noreferrer">
+                    Contratar Agora
+                    <ArrowRight className="w-4 h-4" />
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -80,8 +82,10 @@ const Services = () => {
           <p className="text-muted-foreground mb-6">
             Ainda não tem certeza de qual solução é ideal para você?
           </p>
-          <Button variant="hero" size="lg">
-            Agende uma Consultoria Gratuita
+          <Button variant="hero" size="lg" asChild>
+            <a href="https://wa.me/5511992648219" target="_blank" rel="noopener noreferrer">
+              Agende uma Consultoria Gratuita
+            </a>
           </Button>
         </div>
       </div>

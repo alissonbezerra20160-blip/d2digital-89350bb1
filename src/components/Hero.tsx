@@ -41,12 +41,16 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            <Button variant="hero" size="lg" className="group">
-              Quero Resultados de Verdade
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <Button variant="hero" size="lg" className="group" asChild>
+              <a href="https://wa.me/5511992648219" target="_blank" rel="noopener noreferrer">
+                Quero Resultados de Verdade
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </a>
             </Button>
-            <Button variant="outline" size="lg">
-              Descubra Nossos Serviços
+            <Button variant="outline" size="lg" asChild>
+              <a href="#servicos">
+                Descubra Nossos Serviços
+              </a>
             </Button>
           </div>
 

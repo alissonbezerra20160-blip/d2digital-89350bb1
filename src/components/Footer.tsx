@@ -10,19 +10,25 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <img src={logo} alt="D2 Digital" className="h-16 w-auto" />
+            <img src={logo} alt="D2 Digital" className="h-20 w-auto" />
             <p className="text-muted-foreground">
               Transformando marcas através da união perfeita entre dados e design.
             </p>
             <div className="flex gap-3">
-              <Button variant="outline" size="icon">
-                <Instagram className="w-4 h-4" />
+              <Button variant="outline" size="icon" asChild>
+                <a href="https://www.instagram.com/d2digital.agencia/" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="outline" size="icon">
-                <Linkedin className="w-4 h-4" />
+              <Button variant="outline" size="icon" asChild>
+                <a href="https://linkedin.com/company/d2-digital-agência/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-4 h-4" />
+                </a>
               </Button>
-              <Button variant="outline" size="icon">
-                <Facebook className="w-4 h-4" />
+              <Button variant="outline" size="icon" asChild>
+                <a href="https://www.facebook.com/profile.php?id=61582414019433" target="_blank" rel="noopener noreferrer">
+                  <Facebook className="w-4 h-4" />
+                </a>
               </Button>
             </div>
           </div>
