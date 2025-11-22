@@ -54,19 +54,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 pt-12 max-w-3xl mx-auto">
-            {[
-              { label: "Clientes Ativos", value: "150+" },
-              { label: "Campanhas", value: "500+" },
-              { label: "ROI Médio", value: "3.5x" },
-              { label: "Anos Mercado", value: "5+" },
-            ].map((stat) => (
-              <div key={stat.label} className="space-y-1">
-                <div className="text-3xl font-bold text-primary">{stat.value}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

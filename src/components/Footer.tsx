@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4">
-            <img src={logo} alt="D2 Digital" className="h-20 w-auto" />
+            <img src={logo} alt="D2 Digital" className="h-28 w-auto" />
             <p className="text-muted-foreground">
               Transformando marcas através da união perfeita entre dados e design.
             </p>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="outline" size="icon" asChild>
-                <a href="https://linkedin.com/company/d2-digital-agência/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/company/d2-digital-agência/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-4 h-4" />
                 </a>
               </Button>
@@ -97,7 +97,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2024 D2 Digital. Todos os direitos reservados.</p>
+          <p>© 2025 D2 Digital. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
