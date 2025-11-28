@@ -14,6 +14,12 @@ const Hero = () => {
       {/* Spinning Background Effect */}
       <SpinningBackground />
 
+      {/* Top Gradient Overlay to hide icon cuts */}
+      <div 
+        className="absolute top-0 left-0 right-0 h-32 z-[5] pointer-events-none"
+        style={{ background: 'linear-gradient(to bottom, rgba(20, 0, 40, 0.95), rgba(20, 0, 40, 0))' }}
+      />
+
       {/* Animated Gradient Orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse delay-1000" />
