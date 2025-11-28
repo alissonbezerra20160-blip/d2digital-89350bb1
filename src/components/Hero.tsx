@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import FloatingIcons from "./FloatingIcons";
 
 const Hero = () => {
   return (
@@ -14,6 +15,9 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-gradient-hero" />
       </div>
+
+      {/* Floating Social Icons */}
+      <FloatingIcons />
 
       {/* Animated Gradient Orbs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse" />
