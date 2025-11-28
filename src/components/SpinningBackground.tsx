@@ -1,7 +1,5 @@
 "use client";
 
-import spinningBg from "@/assets/spinning-bg.png";
-
 const SpinningBackground = () => {
   return (
     <>
@@ -42,9 +40,9 @@ const SpinningBackground = () => {
             }}
           >
             <img
-              src={spinningBg}
+              src="https://framerusercontent.com/images/oqZEqzDEgSLygmUDuZAYNh2XQ9U.png?scale-down-to=2048"
               alt=""
-              className="w-full h-full object-cover opacity-40"
+              className="w-full h-full object-cover opacity-30"
             />
           </div>
         </div>
@@ -61,9 +59,9 @@ const SpinningBackground = () => {
             }}
           >
             <img
-              src={spinningBg}
+              src="https://framerusercontent.com/images/UbucGYsHDAUHfaGZNjwyCzViw8.png?scale-down-to=1024"
               alt=""
-              className="w-full h-full object-cover opacity-50"
+              className="w-full h-full object-cover opacity-40"
             />
           </div>
         </div>
@@ -80,9 +78,9 @@ const SpinningBackground = () => {
             }}
           >
             <img
-              src={spinningBg}
+              src="https://framerusercontent.com/images/Ans5PAxtJfg3CwxlrPMSshx2Pqc.png"
               alt=""
-              className="w-full h-full object-cover opacity-60"
+              className="w-full h-full object-cover opacity-50"
             />
           </div>
         </div>
